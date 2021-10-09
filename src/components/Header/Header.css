@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid whitesmoke;
+  margin-top: 3px;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex: 1.2;
+}
+.header_left > img {
+  object-fit: contain;
+  height: 45px;
+  margin-left: 3px;
+}
+
+.header_middle {
+  display: flex;
+  align-items: center;
+  flex: 3.5;
+  background-color: rgba(103, 128, 159, 0.1);
+  padding: 3px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  border-radius: 8px;
+}
+.header_middle > .MuiSvgIcon-root {
+  color: grey;
+  padding: 8px 10px 9px 13px;
+}
+.header_middle > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+  color: grey;
+  background-color: transparent;
+  font-family: 'poppins';
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  flex: 1.9;
+  padding-right: 30px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
