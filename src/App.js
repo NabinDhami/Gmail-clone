@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Email from './components/MiddlePart/Email/Email';
 import EmailList from './components/MiddlePart/EmailList/EmailList';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
